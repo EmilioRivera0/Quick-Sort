@@ -12,4 +12,3 @@ _deps
 CMakeUserPresets.json
 .vs/
 out/
-CMakePresets.json

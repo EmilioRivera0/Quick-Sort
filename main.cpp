@@ -1,8 +1,7 @@
-﻿#include "../lib/QuickSort.h"
+﻿#include "lib/include/Quick_Sort.h"
 
 int main()
 {
-	cout << "Hello CMake." << endl;
 	return 0;
 }
 

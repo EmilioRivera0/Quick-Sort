@@ -14,10 +14,11 @@ int partition(std::vector<int>& vec, int left, int right) {
 			// when pivot is reached, update its index
 			if (j == pivot) pivot = i;
 		}
-		// at the end, swap the pivot with the lastly swapped element
-		std::swap(vec[i], vec[pivot]);
-		pivot = i;
 	}
+	// at the end, swap the pivot with the lastly swapped element
+	std::swap(vec[i], vec[pivot]);
+	pivot = i;
+
 	return pivot;
 }
 
